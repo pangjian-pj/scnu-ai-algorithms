@@ -5,6 +5,7 @@ nums.sort()
 print(*nums, sep=" ")
 '''
 
+# 链表节点的定义
 class ListNode:
     def __init__(self, val=0, next=None):
         self.val = val
